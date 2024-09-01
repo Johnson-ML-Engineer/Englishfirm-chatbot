@@ -1,6 +1,4 @@
-streamlit==1.0.0
-Chroma==0.3.0
-pysqlite3-binary
+streamlit == 1.31.0 
 pypdf
 langchain
 langchain-google-genai
