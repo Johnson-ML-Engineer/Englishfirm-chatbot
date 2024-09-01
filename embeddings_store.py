@@ -3,6 +3,8 @@ from langchain_chroma import Chroma
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
+import os
+os.environ["GOOGLE_API_KEY"] = "AIzaSyAyS_Bb-vri5grDlsEdvqqtDHXRVvc3gDw"
 
 def create_embeddings_and_store(doc_chunks):
     vectorstore = Chroma.from_documents(
