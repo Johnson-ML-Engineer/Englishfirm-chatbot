@@ -1,5 +1,5 @@
-streamlit>=1.0.0
-Chroma>=0.3.0
+streamlit==1.0.0
+Chroma==0.3.0
 pysqlite3-binary
 pypdf
 langchain
