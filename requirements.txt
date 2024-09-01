@@ -1,5 +1,5 @@
 streamlit
-pysqlite3-binary
+sqlite3
 pypdf
 langchain
 langchain-google-genai
