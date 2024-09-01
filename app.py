@@ -1,5 +1,4 @@
 import streamlit as st
-from config import setup_environment
 from rag_initializer import initialize_rag_chain
 
 
