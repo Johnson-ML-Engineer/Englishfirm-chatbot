@@ -1,5 +1,5 @@
 streamlit
-python-dotenv
+pypdf
 langchain
 langchain-google-genai
 langchain-chroma
