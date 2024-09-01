@@ -1,9 +1,7 @@
 import streamlit as st
 from config import setup_environment
 from rag_initializer import initialize_rag_chain
-from chatbot import chatbot_response
 
-setup_environment()
 
 st.set_page_config(page_title="Mini AI Bot for Englishfirm.com", page_icon="🤖", layout="wide")
 
